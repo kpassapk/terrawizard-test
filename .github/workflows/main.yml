@@ -32,4 +32,5 @@ jobs:
           git config --global user.name "Git Hub"
           git config --global user.email "some-email@yalochat.com"
           git checkout main
+          git filter-branch -- --all
           git push -u bitbucket main
