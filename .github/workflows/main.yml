@@ -28,7 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          git remote add bitbucket https://yalo-kyle-passarelli:tGkjjAQaqNCtpR6dbsRq@bitbucket.org/yalochat/tf-integrations.git
+          git remote add bitbucket https://yalo-kyle-passarelli:${{ secrets.BB_APP_PASSWORD }}@bitbucket.org/yalochat/tf-integrations.git
           git config --global user.name "Git Hub"
           git config --global user.email "some-email@yalochat.com"
           git checkout main
