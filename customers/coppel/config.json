@@ -1,0 +1,18 @@
+{
+    "org_id": "coppel",
+    "connectors": {
+        "front": [
+            {
+                "id": "front-42",
+                "integration_id": "front",
+                "config": {
+                    "code": "",
+                    "bot_id": "bot",
+                    "inbox_name": "inbox",
+                    "phone": "123345456",
+                    "access_token": "123123123"
+                }
+            }
+        ]
+    }
+}
