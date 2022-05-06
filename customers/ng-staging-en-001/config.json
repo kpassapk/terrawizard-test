@@ -1,0 +1,16 @@
+{
+    "org_id": "ng-staging-en-001",
+    "connectors": {
+        "example": [
+            {
+                "id": "example-11",
+                "integration_id": "example",
+                "config": {
+                    "token": "1123123123",
+                    "greeting": "Howdy",
+                    "flow_id": "6216a4ab43d54314270934e4"
+                }
+            }
+        ]
+    }
+}
