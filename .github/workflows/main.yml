@@ -31,6 +31,5 @@ jobs:
           git remote add bitbucket https://yalo-kyle-passarelli:${{ secrets.BB_APP_PASSWORD }}@bitbucket.org/yalochat/tf-integrations.git
           git config --global user.name "Git Hub"
           git config --global user.email "some-email@yalochat.com"
-          git checkout main
           git filter-branch -- --all
           git push -u bitbucket $GITHUB_REF_NAME
