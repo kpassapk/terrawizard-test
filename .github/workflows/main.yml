@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ "feature/*" ]
   pull_request:
     branches: [ main ]
 
@@ -33,4 +33,4 @@ jobs:
           git config --global user.email "some-email@yalochat.com"
           git checkout main
           git filter-branch -- --all
-          git push -u bitbucket main
+          git push -u bitbucket $GITHUB_REF_NAME
