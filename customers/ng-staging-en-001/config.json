@@ -7,7 +7,7 @@
                 "integration_id": "example",
                 "config": {
                     "token": "123123",
-                    "greeting": "Howdy",
+                    "greeting": "Hia",
                     "flow_id": "ng-staging-en-001"
                 }
             }
